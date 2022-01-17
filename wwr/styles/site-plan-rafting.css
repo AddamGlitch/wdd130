@@ -119,7 +119,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: var(#66fcf1);
-  background-color: var(skyblue);
+  background-color: var(rgb(115, 207, 243));
 }
 .sitemap {
   display: grid;
