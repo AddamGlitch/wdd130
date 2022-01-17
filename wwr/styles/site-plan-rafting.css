@@ -115,11 +115,11 @@ nav a {
   padding: 10px;
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: var(#c5c6c7);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: var(#66fcf1);
+  background-color: var(skyblue);
 }
 .sitemap {
   display: grid;
