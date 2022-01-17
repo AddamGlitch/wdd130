@@ -115,7 +115,7 @@ nav a {
   padding: 10px;
 }
 nav a:link, nav a:visited {
-  color: var(#c5c6c7);
+  color: var(#41ecde);
 }
 nav a:hover {
   color: var(#66fcf1);
