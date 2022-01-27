@@ -4,6 +4,8 @@
 
 nav a {
     text-align: center;
+    text-decoration: none;
+    text-align: #c5c6c7;
 }
 
 
@@ -36,11 +38,13 @@ header {
 }
 
 nav a:hover{
-    background-color: #c5c6c7;
+    background-color: ;
+    color: #d9c2a3;
 }
 
 .book, .join {
     background-color: #45a29e;
+    text-decoration: none;
 
 }
 
@@ -59,12 +63,43 @@ nav a:hover{
 
 }
 
+.msg h2 {
+    
+}
+
+.msg p{
+    
+}
+
 footer {
     background-color: #45a29e;
 
 }
 
+footer h3 {
 
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+.home-title {
+
+}
+
+footer a:hover{
+
+}
+
+h4 {
+
+}
+
+.icon {
+
+}
 
 
 
