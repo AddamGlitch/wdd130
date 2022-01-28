@@ -6,8 +6,15 @@ nav a {
     text-align: center;
     text-decoration: none;
     text-align: #c5c6c7;
+    color: white;
+    text-size-adjust: auto;
 }
 
+#hero {
+    max-width: 100%;
+    height: auto;
+
+}
 
 #hero-msg h1{
     text-align: center;
@@ -26,20 +33,23 @@ main section {
 }
 
 #backgroung {
-    height: 725px;
+    height: 300px;
+    color: wheat;
+    background-color: wheat;
 }
 
 body {
-    background-color: #45a29e;
+    background-color: #F1F9F8;
 }
 
 header {
-    background-color: #66fcf1;
+    background-color: #45a29e;
 }
 
 nav a:hover{
-    background-color: ;
+    background-color: black;
     color: #d9c2a3;
+
 }
 
 .book, .join {
@@ -71,17 +81,17 @@ nav a:hover{
     
 }
 
-footer {
+ footer {
     background-color: #45a29e;
 
 }
 
-footer h3 {
+.footer h3 {
 
 }
 
-footer a {
-    text-decoration: none;
+.footer a {
+    text-decoration: wheat;
 
 }
 
