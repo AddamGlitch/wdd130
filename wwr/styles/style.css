@@ -41,7 +41,7 @@ main section {
     text-align: center;
 }
 
-#backgroung {
+#background {
     height: 725px;
     color: wheat;
     background-color: wheat;
@@ -80,10 +80,9 @@ nav a:hover{
 
 }
 
-#background {
+/* #background {
     background-color: #45a29e;
-
-}
+} */
 
 .msg {
     background-color: #45a29e;
