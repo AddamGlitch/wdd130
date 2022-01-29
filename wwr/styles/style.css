@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&family=Rock+Salt&display=swap');
 
 #content{
     margin: 0 auto;
@@ -15,6 +16,10 @@
     max-width: 100%;
     height: auto;
     width: 100%;
+}
+
+.logo {
+    width: 80px;
 }
 
 #hero-box {
@@ -56,7 +61,7 @@ header {
 
 nav a {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     text-size-adjust: auto;
 }
@@ -65,57 +70,49 @@ nav a:hover{
     background-color: black;
     color: #d9c2a3;
     text-decoration: underline;
-
 }
 
 .book, .join {
-    background-color: #45a29e;
     text-decoration: none;
-
 }
 
-.book:hover, .join.hover {
-    background-color: #45a29e;
 
+.book:hover, .join:hover {
+    text-decoration: underline;
 }
-
-/* #background {
-    background-color: #45a29e;
-} */
 
 .msg {
     background-color: #45a29e;
-
 }
 
 .msg h2 {
-    
+    color: #000000; 
+    font-family: 'rocksalt';
 }
 
 .msg p{
-    
+    color: #000000;
+    font-family: 'rocksalt';  
 }
 
- footer {
+.footer {
     background-color: #45a29e;
-    text-decoration: underline;
-
 }
 
 .footer a {
-    text-decoration: wheat;
+    text-decoration: none;
+    color: #0000fa;
+}
 
+.footer a:hover {
+    text-decoration: underline;
 }
 
 .footer h3 {
-
+    text-decoration: none;
 }
 
 .home-title {
-
-}
-
-footer a:hover{
 
 }
 
@@ -124,9 +121,10 @@ h3 {
 }
 
 h4 {
+    color: #000000;
 
 }
 
 .icon {
-
+    width: 80px;
 }
