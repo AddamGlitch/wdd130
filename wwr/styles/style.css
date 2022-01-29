@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&family=Rock+Salt&display=swap');
 
 #content{
     margin: 0 auto;
@@ -30,6 +30,7 @@
 
 #hero-msg h1{
     text-align: center;
+    /* font-family: 'Comic Neue'; */
 }
 
 #hero-msg h4 {
@@ -87,12 +88,11 @@ nav a:hover{
 
 .msg h2 {
     color: #000000; 
-    font-family: 'rocksalt';
+    font-family: 'Rock Salt';
 }
 
 .msg p{
     color: #000000;
-    font-family: rocksalt;  
 }
 
 .footer {
@@ -113,11 +113,11 @@ nav a:hover{
 }
 
 .home-title {
-
+    font-family: 'Rock Salt';
 }
 
 h3 {
-    text-decoration: underline;
+    text-decoration: underline;     
 }
 
 h4 {
