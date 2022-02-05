@@ -1,0 +1,29 @@
+
+#content{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+#circles {
+    max-width: 100%;
+    height: 60%;
+
+    /* width: 100%; */
+}
+
+#container {
+    height: 30%;
+    background-color: grey;
+
+}
+
+#background {
+    height: 30%;
+    background-color: wheat;
+}
+
+.img {
+    margin: auto;
+    height: 70%;
+}
+
