@@ -7,7 +7,8 @@
 #hero {
     max-width: 100%;
     height: auto;
-    /* width: 100%; */
+    border: solid grey;
+    padding-bottom: 50px;
 }
 
 
@@ -19,6 +20,7 @@
 
 .logo {
     width: 80px;
+    border-radius: 20px;
 }
 
 #hero-box {
@@ -34,7 +36,7 @@
 
 #hero-msg h1{
     text-align: center;
-    /* font-family: 'Comic Neue'; */
+    font-family: 'Rock Salt', 'Caveat', sans-serif;
 }
 
 #hero-msg h4 {
@@ -72,6 +74,10 @@ body {
     margin: 0;
 }
 
+.home-grid {
+    margin-top: 20px;
+}
+
 header {
     background-color: #45a29e;
 }
@@ -86,7 +92,6 @@ nav a {
 }
 
 nav a:hover{
-    background-color: black;
     color: #d9c2a3;
     text-decoration: underline;
 }
@@ -96,12 +101,13 @@ nav a:hover{
     color: rgb(47, 248, 255);
     background-color: black;
     border-radius: 5px;
-    padding: 1px;
+    padding: 5px;
     font-size: 18px;
     /* to space out content the content */
     padding: 15px 30px;
     /* to space out content on page beyond the borders of the elements where it is needed */
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 
