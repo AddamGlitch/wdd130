@@ -124,7 +124,7 @@ nav a:hover{
 
 .msg h2 {
     color: #000000; 
-    font-family: 'Rock Salt', 'Caveat' sans-serif;
+    font-family: 'Rock Salt', 'Caveat', sans-serif;
 }
 
 .msg p{
@@ -166,7 +166,7 @@ footer .social img {
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Caveat' sans-serif;
+    font-family: 'Rock Salt', 'Caveat', sans-serif;
     font-size: 2em;
     /* to space out content on page beyond the borders of the elements where it is needed */
     margin-top: 10px;
@@ -194,7 +194,7 @@ h4 {
 
 .rivers-card, .camping-card, .rapids-card {
     /* to space out content on page beyond the borders of the elements where it is needed */
-    margin: 200px, 0;
+    margin: 200px 0;
 }
 
 .card-img {
