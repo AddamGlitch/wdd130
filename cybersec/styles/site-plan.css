@@ -5,13 +5,13 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #006EB6   ;
+  --secondary-color: #000000 ;
+  --accent1-color: #FFFFFF;
+  --accent2-color: #ADADAD;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: Lato;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -20,8 +20,8 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-link-color: #f8f8f8;
+  --nav-background-color: #525252;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -86,6 +86,7 @@ p {
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: #FFFFFF;
 }
 .accent1 {
   background-color: var(--accent1-color);
