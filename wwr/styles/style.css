@@ -57,7 +57,7 @@
 #hero-msg h1{
     text-align: center;
     font-family: 'Rock Salt', 'Caveat', sans-serif;
-    color: rgb(47, 248, 255);
+    color: rgb(255, 255, 255);
 
     
 }
@@ -132,7 +132,7 @@ nav a:hover{
 
 .book, .join {
     text-decoration: none;
-    color: rgb(47, 248, 255);
+    color: rgb(255, 255, 255);
     background-color: rgba(68, 116, 108, 0.4);
     border-radius: 5px;
     padding: 5px;
@@ -183,7 +183,7 @@ footer {
 
 .footer a {
     text-decoration: none;
-    color: #2ff8ff;
+    color: #000000;
 }
 
 .footer a:hover {
@@ -192,8 +192,7 @@ footer {
 
 .footer h3 {
     text-decoration: none;
-    background-color: black;
-    color: #2ff8ff;
+    color: #000000;
     border-radius: 3px;
     padding: 1px;
     width: fit-content;
