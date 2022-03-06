@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations | Rafture Boating | Home</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+    <style>
+        .mySlides {display:none;}
+    </style>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">         -->
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/rafture.jpeg" alt="Rafture logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <h1 class="w3-center">Manual Slideshow</h1>
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/slide1.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide2.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide3.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide4.jpeg" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              </script>
+
+
+
+
+            <img class="mySlides" src="img_snowtops.jpg">
+            <img class="mySlides" src="img_lights.jpg">
+            <img class="mySlides" src="img_mountains.jpg">
+            <img class="mySlides" src="img_forest.jpg">
+
+            <!-- <img class="mountains" src="images/mountains.jpeg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than
+                    just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the
+                    great outdoors. </p>
+                <a class="join" href="rivers.html">Join Us</a>
+            </section> -->
+
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+
+        </main>
+
+
+        <footer class="footer">
+            <h3>Rafture &copy; 2022 - Ballah Addam Koroma</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
