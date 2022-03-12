@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +11,9 @@
         .mySlides {display:none;}
     </style>
 
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">         -->
 </head>
-
-<!-- div for sorting out the with of the whole page -->
-
 <body>
     <div id="content">
         <header>
@@ -26,12 +24,12 @@
                 <a href="index.html">Home</a>
                 <a href="#">About</a>
                 <a href="site-plan-rafting.html">Site Plan</a>
-                <a href="https://addamglitch.github.io/wdd130/wwr/contact_page.html#">Contact Us</a>
             </nav>
         </header>
-        
-        <!-- place slide show here -->
-        <h1 class="w3-center">Manual Slideshow</h1>
+
+        <main>
+
+            <h1 class="w3-center">Manual Slideshow</h1>
 
             <div class="w3-content w3-display-container">
                 <img class="mySlides" src="images/slide1.jpeg" style="width:100%">
@@ -42,37 +40,62 @@
                 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
               </div>
+              
 
-        <main class="home-grid">
-            <!-- <section class="rivers-card">
-                <img class="card-img" src="images/rivers.jpeg" alt="river in forest">
-                <img class="icon" src="images/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
-            </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/camping.jpeg" alt="tent in mountains">
-                <img class="icon" src="images/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpeg" alt="rafting boat">
-                <img class="icon" src="images/oars.png" alt="oars icon">
-                <h2>Rapids</h2> -->
 
-                <!-- place information details here -->
-            </section>
 
-            <div id="background"></div>
 
-            <img class="mountains" src="images/mountains.jpeg" alt="Misty mountains">
+
+            <!-- <img class="mySlides" src="img_snowtops.jpg">
+            <img class="mySlides" src="img_lights.jpg">
+            <img class="mySlides" src="img_mountains.jpg">
+            <img class="mySlides" src="img_forest.jpg"> -->
+
+            <!-- <img class="mountains" src="images/mountains.jpeg" alt="Misty mountains">
             <section class="msg">
                 <h2>More Than Just The Thrill</h2>
                 <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than
                     just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the
                     great outdoors. </p>
                 <a class="join" href="rivers.html">Join Us</a>
-            </section>
+            </section> -->
+
+            <h1>Contact Us</h1>
+
+            <div>
+            <p>
+                GET IN TOUCH WITH RAFTURE
+Share your suggestions, your compliments,
+ask a question or pass along your tips for
+improving our web site.
+If you are interested in learning more about job
+opportunities at RAFTURE, please see our
+complete list of career opportunities on
+our Employment page and submit an
+application online.
+If you would like to request our catalog, please
+visit our Catalog Request page.
+Or, if you would like to hear from one of our
+friendly Adventure Consultants with answers
+to your questions or responses to your ideas.
+please fill out the form below.
+Thanks!
+The RAFTURE Crew </p>
+
+            </div>
+
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+ 
+</div>
+
+
         </main>
+
+
         <footer class="footer">
             <h3>Rafture &copy; 2022 - Ballah Addam Koroma</h3>
             <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
@@ -88,7 +111,7 @@
         </footer>
 
     </div>
-    
+
     <script>
         var slideIndex = 1;
         showDivs(slideIndex);
@@ -108,5 +131,6 @@
           x[slideIndex-1].style.display = "block";  
         }
         </script>
+    
 </body>
 </html>
