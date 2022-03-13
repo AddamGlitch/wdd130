@@ -360,6 +360,10 @@ main section img {
     grid-column-end: 3;
   }
 
+  .mySlides {
+      display:none;
+    }
+
 
 
 
