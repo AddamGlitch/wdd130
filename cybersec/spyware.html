@@ -1,5 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE | Spyware</title>
+   
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link type="text/css" rel="stylesheet" href="styles/test.css"/>
+    <link type="text/css" rel="stylesheet" href="styles/style.css"/>
+
+</head>
+
+<!-- Div for sorting out the with of the whole contact page -->
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/cse_logo.jpg" alt="Rafture logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Passwords</a>
+                <a href="site-plan-rafting.html">Spyware</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="https://addamglitch.github.io/wdd130/wwr/contact_page.html#">About Us</a>
+                
+            </nav>
+        </header>
+        
+        <!-- place slide show here -->
+        <h1>Manual Slideshow</h1>
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/slide1.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide2.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide3.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide4.jpeg" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+
+              <h2 class="contact_us_heading">GET IN TOUCH WITH RAFTURE</h2>
+
+              <p class="contact_us_detes">
+        Share your suggestions, your compliments,
+        ask a question or pass along your tips for
+        improving our web site.
+        If you are interested in learning more about job
+        opportunities at RAFTURE, please see our
+        complete list of career opportunities on
+        our Employment page and submit an
+        application online.
+        If you would like to request our catalog, please
+        visit our Catalog Request page.
+        Or, if you would like to hear from one of our
+        friendly Adventure Consultants with answers
+        to your questions or responses to your ideas.
+        please fill out the form below.
+        Thanks!
+        The RAFTURE Crew </p>      
+
+        <main class="home-grid">
+            <!-- <section class="rivers-card">
+                <img class="card-img" src="images/rivers.jpeg" alt="river in forest">
+                <img class="icon" src="images/river_icon.png" alt="river icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="images/camping.jpeg" alt="tent in mountains">
+                <img class="icon" src="images/fire_icon.png" alt="fire icon">
+                <h2>Camping</h2>
+            </section>
+            <section class="rapids-card">
+                <img class="card-img" src="images/rapids.jpeg" alt="rafting boat">
+                <img class="icon" src="images/oars.png" alt="oars icon">
+                <h2>Rapids</h2> -->
+
+                <!-- place information details here -->
+            </section>
+    
+       
+
+            <div id="background"></div>
+
+            <img class="mountains" src="images/mountains.jpeg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p mar>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than
+                    just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the
+                    great outdoors. </p>
+                <a class="join" href="rivers.html">Join Us</a>
+            </section>
+        </main>
+        <footer class="footer">
+            <h3>Rafture &copy; 2022 - Ballah Addam Koroma</h3>
+            <h3><a href="https://addamglitch.github.io/wdd130/cybersec/site-plan.html#">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+    
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -174,4 +319,4 @@ button {
         });
     </script>
 </body>
-</html>
+</html> -->

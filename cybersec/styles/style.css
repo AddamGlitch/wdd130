@@ -16,7 +16,6 @@
 
 }
 
-
 #hero-img {
     max-width: 100%;
     height: auto;
@@ -120,7 +119,7 @@ nav {
 nav a {
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: #000000;
     text-size-adjust: auto;
     /* to space out content*/
     padding: 35px;
