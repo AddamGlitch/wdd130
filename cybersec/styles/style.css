@@ -17,10 +17,11 @@
     align-self: center;
 }
 
-main section {
+
+main {
     text-align: center;
     box-sizing: border-box;
-
+    padding: 30px;
 
 }
 
