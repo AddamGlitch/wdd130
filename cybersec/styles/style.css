@@ -4,6 +4,14 @@
     max-width: 1600px;
 }
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
 .logo {
     width: 80px;
     border-radius: 20px;

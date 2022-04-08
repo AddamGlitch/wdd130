@@ -28,6 +28,10 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+#content{
+  margin: 0 auto;
+  max-width: 1600px;
+}
 
 body {
   max-width: 1200px;
